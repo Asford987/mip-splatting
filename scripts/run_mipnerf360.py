@@ -6,8 +6,8 @@ from concurrent.futures import ThreadPoolExecutor
 import queue
 import time
 
-scenes = ["bicycle", "bonsai", "counter", "flowers", "garden", "stump", "treehill", "kitchen", "room"]
-factors = [4, 2, 2, 4, 4, 4, 4, 2, 2]
+scenes = ["bicycle"]
+factors = [4]
 
 excluded_gpus = set([])
 
